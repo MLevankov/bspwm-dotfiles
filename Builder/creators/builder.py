@@ -3,7 +3,6 @@ import packages
 
 from logger import Logger, LoggerStatus
 from creators.software import AurBuilder, FirefoxCustomize
-from creators.drivers import GraphicDrivers
 from creators.patches import PatchSystemBugs
 from creators.daemons import Daemons
 
@@ -16,7 +15,6 @@ class SystemConfiguration:
         if args[1]: SystemConfiguration.__start_option_2()
         if args[2]: SystemConfiguration.__start_option_3()
         if args[3]: SystemConfiguration.__start_option_4()
-        if args[4]: GraphicDrivers.build()
 
         Daemons.enable_all_daemons()
         PatchSystemBugs.enable_all_patches()
@@ -29,7 +27,7 @@ class SystemConfiguration:
     @staticmethod
     def __start_option_2():
         Logger.add_record("[+] Updates Enabled", status=LoggerStatus.SUCCESS)
-        os.system("sudo pacman -Sy")
+        os.system("sudo pacman -Syu")
 
     @staticmethod
     def __start_option_3():
