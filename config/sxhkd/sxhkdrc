@@ -1,0 +1,17 @@
+super + shift + Return:
+	st
+
+super + shift + q:
+	bspc quit
+
+super + shift + r:
+	~/.config/polybar/run.sh
+
+super + shift + c:
+	bspc node -c
+
+super + {1-9}:
+	bspc desktop -f "^{1-9}"
+
+super + shift + {1-9}:
+	bspc node -d "^{1-9}"
