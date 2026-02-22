@@ -113,4 +113,7 @@ The project is actively developing, so you can offer your ideas for improvements
 This is a modified version by MLevankov (me) for my laptop
 Original versions by ZProger has been renamed in this repository
 
+OS: NixOS
+Terminal: st
+
 Enjoy :3
