@@ -109,3 +109,8 @@ The other hotkeys are in `~/.config/sxhkd/sxhkdrc`.
 #
 
 The project is actively developing, so you can offer your ideas for improvements and visit our [YouTube channel](https://youtube.com/@zproger) and [Telegram](https://t.me/codeblog8). Go to the `Projects` tab to keep track of current shell updates and future improvements.
+<!-- MODIFIED BY MLEVANKOV -->
+This is a modified version by MLevankov (me) for my laptop
+Original versions by ZProger has been renamed in this repository
+
+Enjoy :3
