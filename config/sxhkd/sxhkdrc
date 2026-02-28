@@ -1,11 +1,11 @@
 super + shift + Return:
-	st
+	alacritty
 
 super + shift + q:
 	bspc quit
 
 super + shift + r:
-	~/.config/polybar/run.sh
+	sh ~/.config/polybar/run.sh
 
 super + shift + c:
 	bspc node -c
@@ -15,3 +15,15 @@ super + {1-9}:
 
 super + shift + {1-9}:
 	bspc node -d "^{1-9}"
+
+super + shift + s:
+	sh ~/.config/sxhkd/reload.sh
+
+super + shift + b:
+	bspc wm -r
+
+super + s:
+	scrot
+
+super + l:
+	rofi -show run
